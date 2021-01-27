@@ -60,6 +60,20 @@ html, body {
     }
 }
 
+@media all and (max-width: 1500px) {
+    @keyframes drive {
+        to {
+            transform: translateX(1300px)
+        }
+    }
+
+    @keyframes fly {
+        to {
+            transform: translateX(1200px)
+        }
+    }
+}
+
 .lines {
     box-sizing: border-box;
     border: 5px dashed #fff;
